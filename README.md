@@ -39,4 +39,6 @@ Enum     Width x Height          Refresh Rate    Color Depth
 ---------------------------------------------------
 Enumeration complete. Provide an 'Enum' index as an argument to change resolution.
 
+C:\> list_resolution 96
+
 ```
