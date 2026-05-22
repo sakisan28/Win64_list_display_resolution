@@ -1,4 +1,13 @@
 # Win64_list_display_resolution
+
+An application to enumerate available display resolutions in a Windows x64 environment.
+
+Running without arguments displays a list of resolutions.
+
+Specifying a setting number from the 'Enum' column as an argument changes the resolution to that setting.
+
+By combining it with tools like imniko / SetDPI, you can change the resolution via batch files before and after running games.
+
 Windows x64 環境で、設定可能なディスプレイ解像度を列挙するアプリケーション
 
 引数無しで実行すると、一覧を表示。
@@ -7,16 +16,19 @@ Windows x64 環境で、設定可能なディスプレイ解像度を列挙す�
 
 imniko / SetDPI などと組み合わせれば、ゲームの実行前後にバッチで解像度を変更したりできます。
 
-### ビルド
+### build
+
+Visual Studio Community Edition with C++ required.
+
 Visual Studio Community Edition の C++ が必要です
 
-cmd で
+cmd
 ```
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat"
 cl list_resolution.cpp User32.lib
 ```
 
-### 出力
+### Output
 ```
 C:\> list_resolution
 
