@@ -42,5 +42,7 @@ Enum     Width x Height          Refresh Rate    Color Depth
 Enumeration complete. Provide an 'Enum' index as an argument to change resolution.
 
 C:\> list_resolution 96
+Attempting to change resolution to: 3840x2160...
+Display settings changed successfully.
 
 ```
